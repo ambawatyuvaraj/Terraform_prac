@@ -5,4 +5,3 @@ new_user_credentials.csv
 **/.terraform/*
 .terraform.rc
 terraform.rc
-.gitignore
