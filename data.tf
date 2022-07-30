@@ -6,3 +6,7 @@ data "aws_subnet" "tf-data" {
     values = ["tf-test-subnet"]
   }
 }
+
+data "aws_availability_zones" "available" {
+  state = "available"
+}
